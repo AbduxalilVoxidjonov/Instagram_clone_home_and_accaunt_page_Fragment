@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Fragment_accaunt"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="8dp"
+        android:id="@+id/linearLayout_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+           android:layout_gravity="center"
+          android:layout_marginStart="10dp"
+            android:text="abduxalil.voxidjonov"
+            android:textSize="20sp"
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/accaunt_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/accaunt_plus"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nastroyka"
+            android:id="@+id/tv_nastroyka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="100dp"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_height="90dp"
+                android:layout_width="90dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/accaunt"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="2"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Posts"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="111"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Followers"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="96"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Following"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Abduxalil Voxidjonov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Gamer"
+            android:textColor="#9C9C9C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Telegram:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="t.me/about_me_cv"
+            android:textColor="#1B303C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+      app:cardBackgroundColor="#EFEFEF"
+        android:layout_marginEnd="20dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Professional dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="#9C9C9C"
+                android:text="88 accaunts reached in the last 30 days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#EFEFEF"
+            android:elevation="12dp"
+            app:cardCornerRadius="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="93dp"
+            android:layout_height="35dp">
+            <TextView
+                android:gravity="center"
+                android:text="Edit Profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#EFEFEF"
+            android:elevation="12dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="93dp"
+            android:layout_height="35dp">
+            <TextView
+                android:gravity="center"
+                android:text="Share profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#EFEFEF"
+            android:elevation="12dp"
+            app:cardCornerRadius="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="93dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="35dp"
+            >
+            <TextView
+                android:gravity="center"
+                android:text="Contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        >
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="100dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/accaunt" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Birga bo'lamiz"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="100dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:text="+"
+                    android:textSize="40sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="new"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/one_recom"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/rels"
+            tools:ignore="MissingConstraints" />
+        <ImageView
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/contact"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:background="#FFA837"
+            android:src="@drawable/accaunt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:background="#FFA837"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/accaunt"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </ImageView>
+        <ImageView
+            android:background="#FFA837"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/accaunt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+</LinearLayout>
