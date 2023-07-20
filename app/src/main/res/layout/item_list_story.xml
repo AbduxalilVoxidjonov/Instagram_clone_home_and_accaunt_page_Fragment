@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="#A70F91"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="100dp"
+        app:contentPadding="1dp">
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="100dp">
+            <ImageView
+                android:id="@+id/story_images"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:elevation="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/accaunt" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
