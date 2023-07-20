@@ -7,15 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-   <FrameLayout
-       android:id="@+id/fragment_container"
-       android:layout_width="match_parent"
-       android:layout_height="680dp"/>
+      <FrameLayout
+          android:id="@+id/fragment_container"
+          android:layout_width="match_parent"
+          android:layout_height="670dp"/>
    <LinearLayout
-       android:layout_marginBottom="10dp"
        android:orientation="horizontal"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
+       android:layout_height="60dp"
        tools:ignore="MissingConstraints">
 
       <ImageView
@@ -25,31 +24,38 @@
           android:layout_marginStart="35dp"
           android:clickable="true"
           android:focusable="true"
-          android:src="@drawable/insta_home"
+          android:src="@drawable/home"
           tools:ignore="MissingConstraints" />
       <ImageView
           android:layout_width="30dp"
-          android:layout_height="30dp"
+          android:layout_height="match_parent"
           android:layout_marginStart="35dp"
-          android:src="@drawable/insta_search"
+          android:src="@drawable/search"
+          android:clickable="true"
+          android:focusable="true"
           tools:ignore="MissingConstraints" />
       <ImageView
           android:layout_width="30dp"
-          android:layout_height="30dp"
+          android:layout_height="match_parent"
           android:layout_marginStart="35dp"
-          android:src="@drawable/accaunt_plus"
+          android:clickable="true"
+          android:src="@drawable/outline_add_box_black_24dp"
+          android:focusable="true"
           tools:ignore="MissingConstraints" />
       <ImageView
-          android:layout_width="30dp"
-          android:layout_height="30dp"
-          android:layout_marginStart="40dp"
-          android:src="@drawable/rels"
+          android:layout_width="25dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="35dp"
+          android:clickable="true"
+          android:focusable="true"
+          android:src="@drawable/reels"
           tools:ignore="MissingConstraints" />
       <androidx.cardview.widget.CardView
+          android:layout_marginTop="15dp"
           android:layout_width="30dp"
           android:layout_height="30dp"
           android:layout_centerHorizontal="true"
-          android:layout_marginStart="40dp"
+          android:layout_marginStart="35dp"
           app:cardCornerRadius="100dp">
          <ImageView
              android:id="@+id/accaount_page"
